@@ -1,0 +1,27 @@
+{
+  "name": "blog-vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hu-snail/blog-vuepress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hu-snail/blog-vuepress/issues"
+  },
+  "homepage": "https://github.com/hu-snail/blog-vuepress#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.10"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^0.3.10"
+  }
+}
