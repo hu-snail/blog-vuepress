@@ -32,5 +32,28 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '最后更新时间',
         serviceWorker: true,
+        postcss: [require('autoprefixer')],
+        sass: { indentedSyntax: true },
+        scss: {
+            includePaths: ["./public/scss/variable.scss"]
+        },
+        markdown: {
+            anchor: {
+                permalink: true
+            },
+            toc: {
+                includeLevel: [1, 2]
+            },
+            config: md => {
+                // 使用更多 markdown-it 插件！
+                md.use(require('markdown-it-task-lists'))
+                .use(require('markdown-it-imsize'), { autofill: true })
+            }
+        },
+        chainWebpack: (config, isServer) => {
+            config.resolveLoader
+                .modules
+                .add(path.resolve(__dirname, './node_modules'))
+        }
     }
 }

@@ -1,5 +1,7 @@
 <!--  author: hujinagjun -->
+
 <template>
+
     <div class="title">
         {{msg}}
     </div>
@@ -23,3 +25,9 @@ export default {
     methods: {}
 }
 </script>
+<style lang="scss" scoped>
+@import '../public/scss/variable';
+.title{
+    color: $base-color;
+}
+</style>
