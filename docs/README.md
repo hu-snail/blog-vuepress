@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /hero.png
-actionText: 查看 →
-actionLink: /guide/
+actionText: vuePress使用教程 →
+actionLink: /vuepress/
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
