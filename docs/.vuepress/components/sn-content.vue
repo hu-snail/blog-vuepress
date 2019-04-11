@@ -4,6 +4,7 @@
 
     <div class="title">
         {{msg}}
+        sd
     </div>
 </template>
 
@@ -13,7 +14,7 @@ export default {
 
     data() {
         return {
-            msg: 'hello'
+            msg: 'hello11'
         }
     },
 
@@ -29,5 +30,6 @@ export default {
 @import '../public/scss/variable';
 .title{
     color: $base-color;
+    height: 1000px;
 }
 </style>

@@ -27,7 +27,8 @@ module.exports = {
         sidebar: {
             '/vue/': [
                 'vue基础知识'
-            ]
+            ],
+            
         },
         sidebarDepth: 2,
         lastUpdated: '最后更新时间',

@@ -1,5 +1,6 @@
 ---
 home: true
+title: vuePress使用教程
 # heroImage: /hero.png
 actionText: vuePress使用教程 →
 actionLink: /vuepress/
