@@ -173,3 +173,12 @@ module.exports = {
 ```javascript
 npm run deploy
 ```
+#### 4.github设置
+发布结束后，打开GitHub 设置试试吧
+```
+1. 进入项目仓库 点击 -> setting
+2. GitHub Pages项 设置 Source 选择 gh-pages branch
+3. 保存后会在GitHub Pages项看到 Your site is published at https://xxx.github.io/blog-vuepress/
+链接即可访问
+```
+<sn-comment></sn-comment>

@@ -55,6 +55,13 @@ module.exports = {
             config.resolveLoader
                 .modules
                 .add(path.resolve(__dirname, './node_modules'))
-        }
+        },
+        configureWebpack: {
+            resolve: {
+              alias: {
+                '@alias': './public/images/'
+              }
+            }
+          }
     }
 }

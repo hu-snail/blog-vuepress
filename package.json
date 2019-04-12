@@ -26,6 +26,7 @@
     "vuepress": "^0.14.10"
   },
   "dependencies": {
+    "gitalk": "^1.5.0",
     "vuepress-theme-reco": "^0.3.10"
   }
 }
