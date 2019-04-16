@@ -21,6 +21,7 @@ module.exports = {
         },
         nav: [
             { text: 'demo', link: '/demo/', icon: 'reco-date' },
+            { text: 'mpVue', link: '/pages/mpvue/', icon: 'reco-tag' },
             { text: 'Vue', link: '/vue/', icon: 'reco-tag'},
             { text: 'JavaScript', link: '/JavaScript/', icon: 'reco-tag'}
         ],
