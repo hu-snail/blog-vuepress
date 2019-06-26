@@ -22,8 +22,13 @@ module.exports = {
         nav: [
             { text: 'mpVue', link: '/pages/mpvue/'},
             { text: 'Vue', link: '/vue/'},
-            // { text: 'Taro', link: '/JavaScript/'},
-            // { text: 'React', link: '/JavaScript/'}
+            { text: 'Vuepress', link: '/pages/vuepress/'},
+            { text: 'Mongodb', link: '/pages/mongodb/'},
+            { text: 'Taro', link: '/pages/taro/'},
+            { text: 'React', link: '/pages/javaScript/'},
+            { text: 'Node', link: '/pages/javaScript/'},
+            { text: '杂项合集', link: '/pages/javaScript/'},
+            { text: '生活感悟', link: '/pages/javaScript/'}
         ],
         sidebar: {
             '/vue/': [
