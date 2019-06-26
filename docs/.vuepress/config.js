@@ -20,10 +20,10 @@ module.exports = {
             }
         },
         nav: [
-            { text: 'demo', link: '/demo/', icon: 'reco-date' },
-            { text: 'mpVue', link: '/pages/mpvue/', icon: 'reco-tag' },
-            { text: 'Vue', link: '/vue/', icon: 'reco-tag'},
-            { text: 'JavaScript', link: '/JavaScript/', icon: 'reco-tag'}
+            { text: 'mpVue', link: '/pages/mpvue/'},
+            { text: 'Vue', link: '/vue/'},
+            // { text: 'Taro', link: '/JavaScript/'},
+            // { text: 'React', link: '/JavaScript/'}
         ],
         sidebar: {
             '/vue/': [
