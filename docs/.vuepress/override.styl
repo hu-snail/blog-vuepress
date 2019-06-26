@@ -1,2 +1,32 @@
+$accentColor = #4fc08d
+$codeBgColor = #4fc08d0f
+.home .footer
+    display: none
 
-    
+.content pre code, .content pre[class*="language-"] code
+    color: #525252!important
+
+div[class*="language-"]::before
+    color: #55555578 !important;
+    font-weight: bold;
+
+.custom-block.tip
+    background-color: #fff!important
+    border-color: #67cc86!important
+    color: #525252!important
+
+.custom-block.tip, .custom-block.warning, .custom-block.danger
+    border-left-width: .3rem!important
+    padding: 0 1.5rem!important
+
+.token.selector, .token.important, .token.atrule, .token.keyword, .token.builtin
+    color: #d63200!important
+
+.token.string, .token.char, .token.attr-value, .token.regex, .token.variable
+    color: #42b983!important
+
+.token.tag, .token.attr-name, .token.namespace, .token.deleted
+    color: #f75f63!important
+
+.token.operator, .token.entity, .token.url
+    color: #525252!important
