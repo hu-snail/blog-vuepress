@@ -1,9 +1,14 @@
 <!-- 代码块 author: hujinagjun -->
 <template>
     <div class="tag">
-        <div class="item" v-for="(item, index) in tags">
-            <i class="iconfont icon" :class="item.icon"></i>
-            <span class="text">{{item.title}}</span>
+        <div class="tag-content">
+            <div class="item" :class="{'reset': item.desc}" v-for="(item, i) in list" @click="onClickItem(item.link)">
+                <div class="head">
+                    <i class="iconfont icon" v-if="item.icon" :class="item.icon"></i>
+                    <span class="text">{{item.title}}</span>
+                </div>
+                <div class="desc" v-if="item.desc">{{item.desc}}</div>
+            </div>
         </div>
     </div>
 </template>
@@ -11,94 +16,39 @@
 <script>
 import '../public/fonts/iconfont.css'
 export default {
-    components: {},
-
-    data() {
-        return {
-            tags: [{
-                title: 'Vue',
-                icon: 'icon-vuejs'
-            }, {
-                title: 'React',
-                icon: 'icon-React'
-            }, {
-                title: 'Node JS',
-                icon: 'icon-Nodejs'
-            }, {
-                title: 'Javascript',
-                icon: 'icon-js'
-            }, {
-                title: 'Mpvue',
-                icon: 'icon-xiaochengxu'
-            }, {
-                title: 'Taro',
-                icon: 'icon-xiaochengxu'
-            }, {
-                title: 'Vux',
-                icon: 'icon-css'
-            }, {
-                title: 'Taro UI',
-                icon: 'icon-css'
-            }, {
-                title: 'Vuex',
-                icon: 'icon-js'
-            }, {
-                title: 'Axios',
-                icon: 'icon-js'
-            }, {
-                title: 'Express',
-                icon: 'icon-Nodejs'
-            }, {
-                title: 'Mongodb',
-                icon: 'icon-mongodb'
-            }, {
-                title: 'Mongoose',
-                icon: 'icon-mongodb'
-            }, {
-                title: 'Expo',
-                icon: 'reco-tag'
-            }, {
-                title: 'Element UI',
-                icon: 'icon-changyonglogo40'
-            }, {
-                title: '阿里云 OSS',
-                icon: 'icon-aliyun'
-            }, {
-                title: 'Flex',
-                icon: 'icon-css'
-            }, {
-                title: 'HTML',
-                icon: 'icon-html'
-            }, {
-                title: 'Reduex',
-                icon: 'icon-js'
-            }, {
-                title: 'Mobx',
-                icon: 'icon-js'
-            }, {
-                title: 'Dva',
-                icon: 'icon-js'
-            }, {
-                title: 'AntV',
-                icon: 'icon-js'
-            }]
+    name: 'sn-tag',
+    props: {
+        linkType: {
+            type: String,
+            default: 'local'
+        },
+        list: {
+            type: Array,
+            default: () => {
+                return []
+            }
         }
     },
-
 
     computed: {},
 
     mounted() {},
 
-    methods: {}
+    methods: {
+        onClickItem(path) {
+            if (this.linkType === 'local') this.$router.push({path: path})
+            else window.location.href = path
+        }
+    }
 }
 </script>
 <style lang='scss' scoped>
+@import '../public/scss/variable';
 .icon {
     font-size: 2rem;
-    color: #4fc08d;
+    color: $base-color;
 }
-.tag{
+.tag-content{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -106,16 +56,31 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
         padding: .4rem .8rem;
         border: 1px solid #f5f5f5;
         border-radius: .2rem;
         margin: .4rem;
+        max-width: 200px;
+        &.reset{
+            align-items: flex-start;
+        }
+        .head{
+            display: flex;
+            align-items: center;
+        }
         &:hover{
             box-shadow: 0px 1px 2px #2c3e5024;
         }
         .text{
-            padding: 0 .3rem;
-            font-size: 1.2rem;
+            padding: 0 .6rem;
+            font-size: 1rem;
+        }
+        .desc{
+            color: #959da5;
+            font-size: .8rem;
+            padding: .4rem 0;
         }
     }
 }
