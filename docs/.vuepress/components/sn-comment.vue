@@ -17,10 +17,10 @@ export default {
             gitalk: new Gitalk({
                 clientID: '19080448cafef5b4d4c1',
                 clientSecret: 'b3c90e36bfdd02a04cfcdb4844fa0ad677c083f6',
-                repo: 'blog-comment',
+                repo: 'blog-vuepress',
                 owner: 'hu-snail',
                 admin: ['hu-snail'],
-                id: location.pathname,
+                id: 'comment',
                 distractionFreeMode: false,
                 language: 'zh-CN',
             })
