@@ -2,7 +2,7 @@
 <template>
     <div class="sn-title">
         <span class="line"></span>
-        <span class="title">{{title}}</span>
+        <h3 :id="title" class="title">{{title}}</h3>
     </div>
 </template>
 

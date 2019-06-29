@@ -5,7 +5,7 @@
             <div class="item" :class="{'reset': item.desc}" v-for="(item, i) in list" @click="onClickItem(item.link)">
                 <div class="head">
                     <i class="iconfont icon" v-if="item.icon" :class="item.icon"></i>
-                    <span class="text">{{item.title}}</span>
+                    <h4 class="text" :title="item.title">{{item.title}}</h4>
                 </div>
                 <div class="desc" v-if="item.desc">{{item.desc}}</div>
             </div>
@@ -37,7 +37,7 @@ export default {
     methods: {
         onClickItem(path) {
             if (this.linkType === 'local') this.$router.push({path: path})
-            else window.location.href = path
+            else window.open(path)
         }
     }
 }

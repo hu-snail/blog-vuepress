@@ -15,12 +15,12 @@ export default {
     data() {
         return {
             gitalk: new Gitalk({
-                clientID: '83d52dece19f796425c3',
-                clientSecret: '414471b6f277955c4b62e28cc95a805aba31a820',
-                repo: 'blog',
-                owner: 'iofu728',
-                admin: ['iofu728'],
-                id: 'comment',
+                clientID: '19080448cafef5b4d4c1',
+                clientSecret: 'b3c90e36bfdd02a04cfcdb4844fa0ad677c083f6',
+                repo: 'blog-comment',
+                owner: 'hu-snail',
+                admin: ['hu-snail'],
+                id: location.pathname,
                 distractionFreeMode: false,
                 language: 'zh-CN',
             })
@@ -31,7 +31,7 @@ export default {
     computed: {},
 
     mounted() {
-         this.gitalk.render("gitalk-container");
+        this.gitalk.render("gitalk-container");
     },
 
     methods: {}

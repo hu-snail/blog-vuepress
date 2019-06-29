@@ -47,10 +47,10 @@ export default [
             desc: '致力于为中国软件开发者提供知识传播、在线学习、职业发展等全生命周期服务',
             link: 'https://www.csdn.net/'
         }, {
-            title: '伯乐在线',
+            title: '印记中文',
             icon: 'icon-study',
-            desc: '伯乐在线文章专注于分享IT互联网相关的文章',
-            link: 'http://www.jobbole.com/'
+            desc: '印记中文是最权威是技术中文文档社区',
+            link: 'https://www.docschina.org/'
         }]
     }, {
         title: '在线视频学习',
@@ -119,7 +119,7 @@ export default [
             link: 'https://alili.tech/'
         }]
     }, {
-        title: '开发工具',
+        title: '开发工具下载',
         data: [{
             title: 'Visual Studio Code',
             icon: 'icon-xiazai',
@@ -162,12 +162,63 @@ export default [
             link: 'https://git-scm.com/downloads'
         }]
     }, {
+        title: '推荐构建工具文档',
+        data: [{
+            title: 'Webpack 官方',
+            link: 'https://webpack.js.org/',
+            icon: 'icon-js',
+            desc: '代码模块化构建打包工具'
+        }, {
+            title: 'Webpack 中文',
+            link: 'https://www.webpackjs.com/',
+            icon: 'icon-js',
+            desc: '代码模块化构建打包工具中文文档'
+        }]
+    }, {
+        title: '开发常用资源推荐',
+        data: [{
+            title: 'iconfont 图标',
+            icon: 'icon-study',
+            desc: 'iconfont 阿里巴巴矢量图标资源库',
+            link: 'https://www.iconfont.cn/'
+        }, {
+            title: 'IcoMoon 图标',
+            icon: 'icon-study',
+            desc: 'IcoMoon WEB字体图标制造器',
+            link: 'https://icomoon.io/'
+        }, {
+            title: 'Mock.js API',
+            icon: 'icon-study',
+            desc: '生成随机数据，拦截 Ajax 请求',
+            link: 'http://mockjs.com/'
+        }, {
+            title: 'Easy Mock API',
+            icon: 'icon-study',
+            desc: '伪造数据，我们更高效但不仅于此',
+            link: 'https://www.easy-mock.com/login'
+        }, {
+            title: 'XGPlayer 视频 ',
+            icon: 'icon-study',
+            desc: '带解析器、能节省流量的 Web 视频播放器',
+            link: 'https://h5player.bytedance.com/'
+        }, {
+            title: 'flv.js  视频 ',
+            icon: 'icon-study',
+            desc: 'HTML5 视频播放器以纯JavaScript 编写，不含 Flash',
+            link: 'https://github.com/Bilibili/flv.js'
+        }]
+    }, {
         title: 'vue相关开发文档',
         data: [{
             title: 'Vue',
             link: 'https://cn.vuejs.org/',
             icon: 'icon-vuejs',
             desc: 'Vue.js 构建数据驱动的web界面的渐进式框架'
+        }, {
+            title: 'Vue Cli',
+            link: 'https://cn.vuejs.org/',
+            icon: 'icon-vuejs',
+            desc: 'Vue CLI 是一个基于 Vue.js 进行快速开发项目的脚手架工具'
         }, {
             title: 'VUX',
             link: 'https://vux.li/',
@@ -228,6 +279,82 @@ export default [
             icon: 'icon-vuejs',
             desc: 'Vue.js 的中心化状态管理方案',
             link: 'https://vuex.vuejs.org/zh/guide/'
+        }, {
+            title: 'Weex',
+            icon: 'icon-vuejs',
+            desc: 'Weex 是使用流行的 Web 开发体验来开发高性能原生应用的框架',
+            link: 'https://weex.apache.org/zh/guide/introduction.html'
+        }]
+    }, {
+        title: 'Vue相关常用组件',
+        data: [{
+            title: 'Vue资源精选',
+            icon: 'icon-vuejs',
+            desc: 'vue资源精选-前端组件库丰富资源-前端选型',
+            link: 'http://vue.awesometiny.com/'
+        }, {
+            title: 'Vue-quill-editor',
+            icon: 'icon-vuejs',
+            desc: 'Vue2 封装的 Quill 富文本编辑器组件',
+            link: 'https://www.awesomes.cn/repo/surmon-china/vue-quill-editor'
+        }, {
+            title: 'Vue-fullpage',
+            icon: 'icon-vuejs',
+            desc: '整屏滚动,它是对fullPage.js的Vue封装',
+            link: 'https://github.com/alvarotrigo/vue-fullpage.js'
+        }, {
+            title: 'vue-echarts 图表',
+            icon: 'icon-vuejs',
+            desc: '基于 ECharts v4.1.0+ 开发，依赖 Vue.js v2.2.6+',
+            link: 'https://github.com/SortableJS/Vue.Draggable'
+        }, {
+            title: 'Vue-awesome图标',
+            icon: 'icon-vuejs',
+            desc: '基于 Vue.js 的 SVG 图标组件，内置图标来自 Font Awesome',
+            link: 'https://github.com/Justineo/vue-awesome'
+        }, {
+            title: 'Vue.Draggable',
+            icon: 'icon-vuejs',
+            desc: '用户以拖动的方式对单组或多组卡片进行排列',
+            link: 'https://github.com/SortableJS/Vue.Draggable'
+        }, {
+            title: 'Vue-baidu-map',
+            icon: 'icon-vuejs',
+            desc: '基于vue集成的百度地图',
+            link: 'https://dafrok.github.io/vue-baidu-map/#/zh/control/geolocation'
+        }, {
+            title: 'Vue-amap',
+            icon: 'icon-vuejs',
+            desc: '基于vue集成的高德地图',
+            link: 'https://elemefe.github.io/vue-amap/'
+        }, {
+            title: 'Vue-waterfall',
+            icon: 'icon-vuejs',
+            desc: '瀑布流布局组件',
+            link: 'https://github.com/MopTym/vue-waterfall'
+        }]
+    }, {
+        title: '移动端开发常用插件',
+        data: [{
+            title: 'Fastclick',
+            icon: 'icon-js',
+            desc: '优化移动端点击延迟300毫秒延迟',
+            link: 'https://github.com/ftlabs/fastclick'
+        }, {
+            title: 'vConsole',
+            icon: 'icon-js',
+            desc: '一个轻量、可拓展、针对手机网页的前端开发者调试面板',
+            link: 'https://github.com/Tencent/vConsole/blob/dev/README_CN.md'
+        }, {
+            title: 'Vue-Lazyload',
+            icon: 'icon-js',
+            desc: 'Vue-Lazyload 用于在应用程序中延迟加载图像',
+            link: 'https://github.com/amfe/lib-flexible'
+        }, {
+            title: 'lib-flexible',
+            icon: 'icon-js',
+            desc: '淘宝团队移动端自适应方案',
+            link: 'https://github.com/amfe/lib-flexible'
         }]
     }, {
         title: 'React相关开发文档',
@@ -337,8 +464,12 @@ export default [
         }]
     }, {
         title: 'Node相关开发文档',
-        data: [
-            {
+        data: [{
+                title: 'Node Js 中文',
+                icon: 'icon-Nodejs',
+                desc: 'Node Js 中文文档 基于 V8 引擎的 JS 运行环境 ',
+                link: 'http://nodejs.cn/api/'
+            }, {
                 title: 'Express',
                 icon: 'icon-Nodejs',
                 desc: 'Express - 基于 Node.js 平台的 web 应用开发框架 ',
@@ -373,6 +504,11 @@ export default [
                 icon: 'icon-Nodejs',
                 desc: 'HapiJS是一个开源的、基于Node.js的应用框架',
                 link: 'https://hapijs.com/tutorials?lang=zh_CN'
+            }, {
+                title: 'Egg',
+                icon: 'icon-Nodejs',
+                desc: '为企业级框架和 Node.js & Koa 应用程序而生',
+                link: 'https://eggjs.org/'
             }
         ]
     }, {
@@ -399,9 +535,29 @@ export default [
                 desc: '基于 Vue2.0 和 echarts 封装的 v-charts 图表组件',
                 link: 'https://v-charts.js.org/#/'
             }, {
+                title: 'D3',
+                icon: 'icon-tubiao',
+                desc: '用动态图形显示数据的JavaScript库',
+                link: 'https://d3js.org/'
+            }, {
+                title: 'Threejs',
+                icon: 'icon-tubiao',
+                desc: 'Threejs 运行在浏览器中的3D 引擎',
+                link: 'https://threejs.org/'
+            }, {
+                title: 'Threejs 中文',
+                icon: 'icon-tubiao',
+                desc: 'Threejs 运行在浏览器中的3D 引擎',
+                link: 'http://www.yanhuangxueyuan.com/threejs/docs/index.html'
+            }, {
+                title: 'Highcharts',
+                icon: 'icon-tubiao',
+                desc: '兼容 IE6+、支持移动端、图表类型丰富的HTML5交互性图表库',
+                link: 'http://www.yanhuangxueyuan.com/threejs/docs/index.html'
+            }, {
                 title: 'Echarts',
                 icon: 'icon-tubiao',
-                desc: '提供方便丰富的可视化图表',
+                desc: 'Echarts 提供方便丰富的可视化图表',
                 link: 'https://echarts.baidu.com/tutorial.html#5%20%E5%88%86%E9%92%9F%E4%B8%8A%E6%89%8B%20ECharts'
             }
         ]

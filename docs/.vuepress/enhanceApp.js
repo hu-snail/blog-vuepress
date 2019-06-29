@@ -14,7 +14,7 @@ function integrateGitment(router) {
       } else {
         scriptGitment.onload = () => {
           const commentsContainer = document.createElement('div')
-          commentsContainer.id = 'comments-container'
+          commentsContainer.id = 'gitalk-container'
           commentsContainer.classList.add('content')
           const $page = document.querySelector('.page')
           if ($page) {
@@ -26,22 +26,23 @@ function integrateGitment(router) {
     })
   
     function renderGitment() {
+      console.log(location.origin, location.pathname, '1')
       const gitment = new Gitment({
         // ！！！ID最好不要使用默认值（location.href），因为href会携带hash，可能导致一个页面对应像个评论issue！！！
         // https://github.com/imsun/gitment/issues/55
         id: location.pathname,
         owner: 'hu-snail', // 必须是你自己的github账号
-        repo: 'git@github.com:hu-snail/blog-conent.git', // 上一个准备的github仓库
+        repo: 'blog-comment', // 上一个准备的github仓库
         link: location.origin + location.pathname,
+        admin: ['hu-snail'],
         oauth: {
-          client_id: '83d52dece19f796425c3', // 第一步注册 OAuth application 后获取到的 Client ID
-          client_secret: '414471b6f277955c4b62e28cc95a805aba31a820', // 第一步注册 OAuth application 后获取到的 Clien Secret
+          client_id: '19080448cafef5b4d4c1', // 第一步注册 OAuth application 后获取到的 Client ID
+          client_secret: 'b3c90e36bfdd02a04cfcdb4844fa0ad677c083f6', // 第一步注册 OAuth application 后获取到的 Clien Secret
         },
       })
       gitment.render('comments-container')
     }
   }
-  
   export default ({
     Vue, // VuePress 正在使用的 Vue 构造函数
     options, // 附加到根实例的一些选项
