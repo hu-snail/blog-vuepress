@@ -62,7 +62,8 @@ export default {
         border: 1px solid #f5f5f5;
         border-radius: .2rem;
         margin: .4rem;
-        max-width: 200px;
+        width: 31%;
+        box-sizing: border-box;
         &.reset{
             align-items: flex-start;
         }
