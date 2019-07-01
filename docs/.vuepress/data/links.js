@@ -7,6 +7,11 @@ export default [
             desc: '整理的一套完整Web前端导航,便于前端开发者查询',
             link: 'http://www.alloyteam.com/nav/'
         }, {
+            title: '前端资源总结',
+            icon: 'icon-study',
+            desc: '很完整的一套前端资源整理',
+            link: 'https://www.jianshu.com/p/6cb49271cd2a#'
+        }, {
             title: '菜鸟教程',
             icon: 'icon-study',
             desc: '提供了编程的基础技术教程，学的不仅是技术,更是梦想',
@@ -377,12 +382,17 @@ export default [
             title: 'Ant Design of React',
             icon: 'icon-React',
             desc: 'Ant-design是阿里巴巴团队出品的ReactUI组件库',
-            link: 'https://2x.ant.design/docs/react/introduce-cn'
+            link: 'https://ant.design/docs/react/introduce-cn'
         }, {
-            title: 'Element React',
+            title: 'Ant Design of React',
             icon: 'icon-React',
-            desc: '一套为开发者准备的基于 React 的桌面端组件库',
-            link: 'https://elemefe.github.io/element-react/#/zh-CN/quick-start'
+            desc: 'Ant-design是阿里巴巴团队出品的ReactUI组件库',
+            link: 'https://ant.design/docs/react/introduce-cn'
+        }, {
+            title: 'OnsenUI',
+            icon: 'icon-React',
+            desc: 'Onsen UI - 跨平台HTML5混合应用程序框架',
+            link: 'https://onsen.io/v2/guide/#getting-started'
         }, {
             title: 'Redux 中文文档',
             icon: 'icon-React',
@@ -393,6 +403,24 @@ export default [
             icon: 'icon-React',
             desc: 'MobX 简单、可扩展的状态管理',
             link: 'https://cn.mobx.js.org/'
+        }]
+    }, {
+        title: 'React Naitve 相关推荐',
+        data: [{
+            title: 'Ant Design Mobile',
+            icon: 'icon-React',
+            desc: '基于蚂蚁金服移动设计规范的 React Native 组件库',
+            link: 'https://rn.mobile.ant.design/index-cn'
+        }, {
+            title: 'React Native 资源',
+            icon: 'icon-React',
+            desc: '收集了大量 React Native 的开发资源，值得关注',
+            link: 'http://www.awesome-react-native.com/'
+        }, {
+            title: 'Expo',
+            icon: 'icon-React',
+            desc: 'react native构建的免费开放源代码工具',
+            link: 'https://expo.io/learn'
         }]
     }, {
         title: '小程序相关开发文档',
@@ -583,6 +611,11 @@ export default [
                 title: 'CSS/CSS3',
                 icon: 'icon-wenzhang1',
                 desc: 'CSS/CSS3中文参考文档手册最新版',
+                link: 'http://css.cuishifeng.cn/'
+            }, {
+                title: 'HTML5',
+                icon: 'icon-wenzhang1',
+                desc: 'HTML 5 参考手册',
                 link: 'http://css.cuishifeng.cn/'
             }
         ]
