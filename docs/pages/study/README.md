@@ -48,3 +48,4 @@ title: 精心为你推荐前端学习资源
 对于前端开发来说`JavaScript`尤为重要，学好这门课对于自身在前端方向发展也是有很大帮助。实际项目开发中使用范围广，页面交互，第三方插件，工具类等等都会涉及到JavaScript知识。
 
 ![JavaScript](/blog-vuepress/images/JavaScript.png)
+##### 学习推荐：<br>
