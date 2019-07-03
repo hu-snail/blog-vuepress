@@ -1,12 +1,7 @@
 <!-- 代码块 author: hujinagjun -->
 <template>
     <div class="tag-container">
-        <sn-title title="资源目录"></sn-title>
-        <ul>
-            <li v-for="(item, index) in list" :key="index">
-                <a :href="'#' + item.title">{{item.title}}</a>
-            </li>
-        </ul>
+        <sn-toc :list="list"></sn-toc>
         <div class="content" v-for="(item, index) in list" :key="index">
             <sn-title :title="item.title"></sn-title>
             <sn-tag linkType="other" :list="item.data"></sn-tag>
@@ -17,13 +12,15 @@
 <script>
 import SnTag from './sn-tag'
 import SnTitle from './sn-title'
+import SnToc from './sn-toc'
 import TagsData from '../data/links'
 export default {
     name: 'Tags',
 
     components: {
         SnTag,
-        SnTitle
+        SnTitle,
+        SnToc
     },
 
     data() {
