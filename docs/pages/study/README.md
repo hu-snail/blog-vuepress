@@ -26,6 +26,15 @@ title: 精心为你推荐前端学习资源
 #### 前端开发 • 市场招聘条件分析
 全国前端开发就业形势分析：招聘待遇，工资20000-29999占比最多，达32%。经验要求，1-3年工作经验要求的占比最多，达43%；学历要求，大专学历要求的占比最多，达49%。该数据仅供参考
 ![工资收入水平](/blog-vuepress/images/t2.png)
+<sn-title title="前端开发工具"></sn-title>
+“工欲善其事，必先利其器“， 这句话我们都能理解，但是对于初学者如何选择一款适合自己的开发工具来说还是有些困惑。其实对于成熟的开发者来说使开发工具仅仅是一个习惯问题，并不会影响工作和学习。但是很多初学者还是会挑选满意的开发工具，所以我给你们推荐了以下几款主流开发工具。
+#### 编码工具
+- [Notepad++](https://dl.pconline.com.cn/html_2/1/117/id=10699&pn=0.html)<br>
+Notepad++中文版是一款非常有特色的编辑器，是开源软件，可以免费使用
+- [Sublime Text 3](http://www.sublimetext.com/)<br>
+Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段等。还可自定义键绑定，菜单和工具栏。Sublime Text 的主要功能包括：拼写检查，书签，完整的 Python API ， Goto 功能，即时项目切换，多选择，多窗口等等。Sublime Text 是一个跨平台的编辑器，同时支持Windows、Linux等操作系统
+
+
 <sn-title title="前端知识结构"></sn-title>
 清晰的知识结构有助于你更好的学习，并且能够针对性地有效学习。需要注意的是每个基础模块结尾都有一个实战模块，希望你能用所学的基础只是完成一个小的练习，有助于更好的理解和掌握知识点，也能从实战中发现自己的问题。
 ##### 目录
@@ -74,6 +83,12 @@ title: 精心为你推荐前端学习资源
 - [JavaScript练习网站收集](http://www.lixuejiang.me/2016/11/01/JavaScript%E7%9A%84%E7%BB%83%E4%B9%A0%E7%BD%91%E7%AB%99%E6%94%B6%E9%9B%86/)
 - [You-Dont-Know-JS -- 翻译版](https://www.jianshu.com/nb/5566863)
 - [javascript学习总结](https://segmentfault.com/blog/trigkit4?page=1&tag=javascript)
+##### 书籍推荐
+- [你不知道的JavaScript（上卷](https://item.jd.com/11676671.html)
+- [javascript高级程序设计 第三版](https://item.jd.com/1049342942.html)
+- [JavaScript设计模式](https://item.jd.com/11747684.html)
+- [高性能JavaScript](https://item.jd.com/11755693.html)
+- [编写可维护的JavaScript](https://item.jd.com/11193885.html)
 ### 完成完整网页开发/移动端页面案例
 学习完`HTML/CSS/HTML5/CSS3/JavaScript`部分后，你需要完成一个完整的网页开发来巩固所学的基础知识。平时的案例只是网页开发的一部分，所以这个过程是必须的。如果部分初创公司需要自己开发网站的话，这个时候就能用上了，还有一部分官网是需要持续维护的。建议参考电商类网站首页进行仿写。如：[蘑菇街](https://www.mogu.com/)，[京东首页](https://www.jd.com/)，[小米官网](http://www.miui.com/)等，H5移动端页面开发[饿了么](https://h5.ele.me/)。这个时候是没有提供CSS UI框架的，所以仿写的每个布局都需要自己独立实现（如果js复杂交互不能实现，建议先把布局写完整，不能放弃，js可以持续积累），完成这个部分可以让你成长许多。加油！
 ##### 学习推荐：
