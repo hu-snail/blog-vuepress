@@ -28,11 +28,14 @@ title: 精心为你推荐前端学习资源
 ![工资收入水平](/blog-vuepress/images/t2.png)
 <sn-title title="前端知识结构"></sn-title>
 清晰的知识结构有助于你更好的学习，并且能够针对性地有效学习。需要注意的是每个基础模块结尾都有一个实战模块，希望你能用所学的基础只是完成一个小的练习，有助于更好的理解和掌握知识点，也能从实战中发现自己的问题。
-#### 1.HTML/CSS/HTML5/CSS3基础部分<br>
+##### 目录
+[[toc]]
+### HTML/CSS/HTML5/CSS3基础部分<br>
 这个部分是每个初学者都必须掌握的，一定要熟练掌握网页布局和样式美化。练习过程中可以参考优秀的网页进行仿写，总结优秀的网页布局结构和场景化的css处理方案。虽然前端开发有许多优秀的的UI框架提供给我们使用，但是作为开发者掌握其基础知识是必备的技能，因为实际开发项目中我们也需要自造轮子，同时面试的时候基础知识也是必不可少的。<br>
 <br> 结构图如下：
 ![知识](/blog-vuepress/images/z1.png)
 ##### 学习推荐：<br>
+- [HTML教程](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
 - [慕课网-初识HTML+CSS](https://www.imooc.com/learn/9)
 - [HTML 教程](http://www.w3school.com.cn/html/index.asp)
 - [HTML5 教程](http://www.w3school.com.cn/html5/index.asp)
@@ -44,8 +47,63 @@ title: 精心为你推荐前端学习资源
 - [阮一峰：CSS 动画](http://www.ruanyifeng.com/blog/2014/02/css_transition_and_animation.html)
 - [阮一峰：CSS使用技巧](http://www.ruanyifeng.com/blog/2014/02/css_transition_and_animation.html)
 
-#### 2.JavaScript基础部分
+### JavaScript基础部分
 对于前端开发来说`JavaScript`尤为重要，学好这门课对于自身在前端方向发展也是有很大帮助。实际项目开发中使用范围广，页面交互，第三方插件，工具类等等都会涉及到JavaScript知识。
 
 ![JavaScript](/blog-vuepress/images/JavaScript.png)
 ##### 学习推荐：<br>
+- [阮一峰：JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
+- [廖雪峰：JavaScript教程](https://www.liaoxuefeng.com/wiki/1022910821149312/1023020745357888)
+- [秒味课堂：JavaScript基础部分【视频】](https://study.miaov.com/study/show/chapter/83#117)
+- [智能社:JavaScript-从入门到精通](https://study.163.com/course/introduction.htm?courseId=224014#/courseDetail?tab=1)
+##### 书籍推荐：
+- [JavaScript权威指南（第6版）](https://item.jd.com/10974436.html?cu=true&utm_source=baidu-nks&utm_medium=cpc&utm_campaign=t_262767352_baidunks&utm_term=81441371911_0_12ff3ccc69ff4dd1bb958559b67af660)
+### JavaScript进阶部分
+前面基础部分强调了`javascript`的重要性,所以学习的过程中这部分必须要掌握，勤加练习！学习没有什么捷径可走，多敲多练。以下介绍的是`javascript`的进阶部分知识，合理计划好学习时间，不能着急。养成学习一个知识点完整一个相关案例的习惯，有助于你更好的理解知识点。
+<br/><br/>
+![JavaScript](/blog-vuepress/images/JavaScript-2.png)
+##### 学习推荐：
+- [JavaScript函数式编程指南](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html)
+- [数组和对象](https://segmentfault.com/a/1190000000653028)
+- [原型和原型链详解](https://segmentfault.com/a/1190000000662547)
+- [数据类型和JSON格式](https://segmentfault.com/a/1190000000668072)
+- [详解js闭包](https://segmentfault.com/a/1190000000652891)
+- [详解js变量、作用域及内存](https://segmentfault.com/a/1190000000687844)
+- [正则表达式](https://segmentfault.com/a/1190000000699097)
+- [常用排序算法之JavaScript实现](https://segmentfault.com/a/1190000000656344)
+- [JavaScript练习网站收集](http://www.lixuejiang.me/2016/11/01/JavaScript%E7%9A%84%E7%BB%83%E4%B9%A0%E7%BD%91%E7%AB%99%E6%94%B6%E9%9B%86/)
+- [You-Dont-Know-JS -- 翻译版](https://www.jianshu.com/nb/5566863)
+- [javascript学习总结](https://segmentfault.com/blog/trigkit4?page=1&tag=javascript)
+### 完成完整网页开发/移动端页面案例
+学习完`HTML/CSS/HTML5/CSS3/JavaScript`部分后，你需要完成一个完整的网页开发来巩固所学的基础知识。平时的案例只是网页开发的一部分，所以这个过程是必须的。如果部分初创公司需要自己开发网站的话，这个时候就能用上了，还有一部分官网是需要持续维护的。建议参考电商类网站首页进行仿写。如：[蘑菇街](https://www.mogu.com/)，[京东首页](https://www.jd.com/)，[小米官网](http://www.miui.com/)等，H5移动端页面开发[饿了么](https://h5.ele.me/)。这个时候是没有提供CSS UI框架的，所以仿写的每个布局都需要自己独立实现（如果js复杂交互不能实现，建议先把布局写完整，不能放弃，js可以持续积累），完成这个部分可以让你成长许多。加油！
+##### 学习推荐：
+- [HTML,CSS代码规范](https://codeguide.bootcss.com/)
+- [Javascript编码规范](http://yuwenhui.github.io/2013/09/13/Javascript-syntax/)
+- [网易前端规范](http://nec.netease.com/standard)
+- [百度前端规范](http://coderlmn.github.io/code-standards/)
+
+##### 静态网页文件目录设计：
+文件目录设计对于项目开发很重要，清晰的结构设计有助于后期扩展和维护。以下是简单的结构设计，后期学完工程化开发项目结构会有所不同，所以前期可以尝试去理解和学习优秀的项目工程目录结构。
+```
+. project-test 根目录
+├── demo 案例文件（用于写案例测试）
+├── asstes 资源文件
+|   ├── style 样式文件
+|       └── header.css 头部组件样式文件
+|       └── style.css 样式文件
+|   ├── fonts 字体文件
+|   ├── icons 图标文件
+|   ├── iamges 图片文件
+├── public 公共文件
+|   ├── plugs 插件文件
+|   ├── utils 工具文件
+|   ├── js js 文件
+├── compents 组件文件
+|   ├── header.html 头部组件
+|   ├── footer.html 底部组件
+├── pages
+|   ├── product.html 产品页面
+|   ├── contact.html 联系我们页面
+└── index.html 首页
+
+```
