@@ -248,7 +248,7 @@ export default [
             title: 'Vue-element-admin',
             icon: 'icon-vuejs',
             desc: '是一个后台前端解决方案,它基于 vue 和element-ui 实现',
-            link: 'https://vuex.vuejs.org/zh/guide/'
+            link: 'https://panjiachen.github.io/vue-element-admin-site/zh/'
         }, {
             title: 'NuxtJs',
             icon: 'icon-vuejs',

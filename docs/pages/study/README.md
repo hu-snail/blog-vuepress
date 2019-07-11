@@ -28,11 +28,18 @@ title: 精心为你推荐前端学习资源
 ![工资收入水平](/blog-vuepress/images/t2.png)
 <sn-title title="前端开发工具"></sn-title>
 “工欲善其事，必先利其器“， 这句话我们都能理解，但是对于初学者如何选择一款适合自己的开发工具来说还是有些困惑。其实对于成熟的开发者来说使开发工具仅仅是一个习惯问题，并不会影响工作和学习。但是很多初学者还是会挑选满意的开发工具，所以我给你们推荐了以下几款主流开发工具。
+
 #### 编码工具
+主推工具：`HBuilderX`， `Visual Studio Code`，我列举了自己用过的开发工具，还有部分优秀的开发工具，有兴趣百度一下。相比之下我比较喜欢这两款
+- [HBuilderX](http://www.dcloud.io/hbuilderx.html)<br>
+HBuilder是当前最快的HTML开发工具,强大的代码助手帮你快速完成开发,最全的语法库和浏览器兼容性数据让浏览器碎片化不再头痛
 - [Notepad++](https://dl.pconline.com.cn/html_2/1/117/id=10699&pn=0.html)<br>
 Notepad++中文版是一款非常有特色的编辑器，是开源软件，可以免费使用。推荐初学者使用
 - [Sublime Text](http://www.sublimetext.com/)<br>
 Sublime Text：一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用她来写代码，绝对是一种享受。
+- [Visual Studio Code](https://code.visualstudio.com/)<br>
+Visual Studio代码是为构建和调试现代Web和云应用程序而重新定义和优化的代码编辑器。
+
 
 <sn-title title="前端知识结构"></sn-title>
 清晰的知识结构有助于你更好的学习，并且能够针对性地有效学习。需要注意的是每个基础模块结尾都有一个实战模块，希望你能用所学的基础只是完成一个小的练习，有助于更好的理解和掌握知识点，也能从实战中发现自己的问题。
@@ -90,11 +97,6 @@ Sublime Text：一款具有代码高亮、语法提示、自动完成且反应�
 - [编写可维护的JavaScript](https://item.jd.com/11193885.html)
 ### 完成完整网页开发/移动端页面案例
 学习完`HTML/CSS/HTML5/CSS3/JavaScript`部分后，你需要完成一个完整的网页开发来巩固所学的基础知识。平时的案例只是网页开发的一部分，所以这个过程是必须的。如果部分初创公司需要自己开发网站的话，这个时候就能用上了，还有一部分官网是需要持续维护的。建议参考电商类网站首页进行仿写。如：[蘑菇街](https://www.mogu.com/)，[京东首页](https://www.jd.com/)，[小米官网](http://www.miui.com/)等，H5移动端页面开发[饿了么](https://h5.ele.me/)。这个时候是没有提供CSS UI框架的，所以仿写的每个布局都需要自己独立实现（如果js复杂交互不能实现，建议先把布局写完整，不能放弃，js可以持续积累），完成这个部分可以让你成长许多。加油！
-##### 学习推荐：
-- [HTML,CSS代码规范](https://codeguide.bootcss.com/)
-- [Javascript编码规范](http://yuwenhui.github.io/2013/09/13/Javascript-syntax/)
-- [网易前端规范](http://nec.netease.com/standard)
-- [百度前端规范](http://coderlmn.github.io/code-standards/)
 
 ##### 静态网页文件目录设计：
 文件目录设计对于项目开发很重要，清晰的结构设计有助于后期扩展和维护。以下是简单的结构设计，后期学完工程化开发项目结构会有所不同，所以前期可以尝试去理解和学习优秀的项目工程目录结构。
@@ -121,3 +123,12 @@ Sublime Text：一款具有代码高亮、语法提示、自动完成且反应�
 └── index.html 首页
 
 ```
+
+<sn-title title="前端开发规范"></sn-title>
+良好的编码规范有助于团队的协作，每个公司的编码规范会有不同，但是大致相同的。实际开发中按照团队协作规范进行即可。
+##### 推荐：
+- [HTML,CSS代码规范](https://codeguide.bootcss.com/)
+- [Javascript编码规范](http://yuwenhui.github.io/2013/09/13/Javascript-syntax/)
+- [网易前端规范](http://nec.netease.com/standard)
+- [百度前端规范](http://coderlmn.github.io/code-standards/)
+
