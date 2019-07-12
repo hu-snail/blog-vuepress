@@ -73,6 +73,7 @@ Visual Studio代码是为构建和调试现代Web和云应用程序而重新定�
 - [智能社:JavaScript-从入门到精通](https://study.163.com/course/introduction.htm?courseId=224014#/courseDetail?tab=1)
 ##### 书籍推荐：
 - [JavaScript权威指南（第6版）](https://item.jd.com/10974436.html?cu=true&utm_source=baidu-nks&utm_medium=cpc&utm_campaign=t_262767352_baidunks&utm_term=81441371911_0_12ff3ccc69ff4dd1bb958559b67af660)
+
 ### JavaScript进阶部分
 前面基础部分强调了`javascript`的重要性,所以学习的过程中这部分必须要掌握，勤加练习！学习没有什么捷径可走，多敲多练。以下介绍的是`javascript`的进阶部分知识，合理计划好学习时间，不能着急。养成学习一个知识点完整一个相关案例的习惯，有助于你更好的理解知识点。
 <br/><br/>
@@ -123,6 +124,10 @@ Visual Studio代码是为构建和调试现代Web和云应用程序而重新定�
 └── index.html 首页
 
 ```
+### 前端进阶
+现如今前端可谓包罗万象，产品形态五花八门，涉猎极广，各种库/框架让初学者不知所云，处于懵的状态。很大部分初学者都有“想学的太多却又不知从何学起”的困惑，所以这部分分享一些自己学习的方法。前面学习的部分是前端必经的基础过程，再次强调这部分的重要性！这部分掌握好了，任何新的框架/库都能快速入手。工作中的项目开发经常会遇到许多自己陌生的技术领域，还有莫名其妙的bug，这可能是许多刚入职的前端开发者最痛苦的事情了。
+
+![JavaScript](/blog-vuepress/images/total.png)
 
 <sn-title title="前端开发规范"></sn-title>
 良好的编码规范有助于团队的协作，每个公司的编码规范会有不同，但是大致相同的。实际开发中按照团队协作规范进行即可。
