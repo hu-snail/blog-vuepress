@@ -1,4 +1,5 @@
 image_version=`date +%Y%m%d%H%M`;
+echo "ceshi-----"
 echo $image_version;
 # cd blog-vuepress
 git pull --rebase origin master;
